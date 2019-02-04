@@ -32,7 +32,8 @@ $(document).ready(function () {
         $('.content_item').eq($('.item_menu').index(this)).addClass('active_content');
     });
     $('.project_more').on('click', function () {
-        $(this).find('.icon_project_more').toggleClass('icon_status_open');
-        $(this).parent().parent().parent().find('.inside_project').slideToggle();
+        var el = $(this).parent().parent().parent().find('.inside_project');
+        el.slideToggle();
+        el.parent().find('.icon_project_more').toggleClass('icon_status_open');
     });
 });

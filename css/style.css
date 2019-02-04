@@ -540,10 +540,39 @@ body {
 .online_item {
   width: 100%;
   height: 90px;
-  border-bottom: 1px solid #d3d7da; }
+  border-bottom: 1px solid #d3d7da;
+  align-items: center; }
 
 .user_online_avatar {
-  width: 40px;
-  height: 40px; }
+  position: relative;
+  width: 41px;
+  height: 41px;
+  margin: 0 3%; }
+
+.user_name_status, .date_user {
+  margin: 0;
+  color: #4b4b4b;
+  font-weight: 700; }
+
+.date_user {
+  color: #bababa;
+  font-size: 14px; }
+
+.status_info {
+  font-weight: 400;
+  color: #909090; }
+
+.user_status {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: #c5c5c5;
+  border-radius: 50% 50%;
+  border: 1px solid #fff; }
+
+.user_status_online {
+  background-color: #aacc4e; }
 
 /*# sourceMappingURL=style.css.map */
