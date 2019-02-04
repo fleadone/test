@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test_task</title>
+    <link rel="stylesheet" href="icon/icomoon/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper flex_row">
+        <div class="navigation flex_col_cent">
+                <div class="user">
+                    <div class="user_photo">
+                        <img class="avatar" src="img/avatar.png" alt="avatar">
+                        <span class="mails sticker">2</span>
+                    </div>
+                </div>
+                <div class="menu active_menu">
+                    <span class="icon-meter icon"></span>
+                    <p>Board</p>
+                </div>
+                <div class="menu">
+                    <span class="sticker">9</span>
+                    <span class="icon-menu icon"></span>
+                    <p>Projects</p>
+                </div>
+                <div class="menu">
+                    <span class="icon-cog icon"></span>
+                    <p>Settings</p>
+                </div>
+                <div class="fix"></div>
+                <div class="menu upgrade">
+                    <span class="sticker">3</span>
+                    <span class="icon-atom icon"></span>
+                    <p>Upgrade</p>
+                </div>
+                <div class="logout">
+                    <span class="icon-switch icon"></span>
+                    <p>Logout</p>
+                </div>
+        </div>
+        <div class="content">
+            <div class="content_items flex_col_cent active_content_items">
+                <div class="info_bar flex_row">
+                    <div class="info_leftside flex_row">
+                        <div class="refresh">
+                            <span class="icon-spinner11 icon_ref"></span>
+                        </div>
+                        <span class="cat_menu">Dashboard</span>
+                    </div>
+                    <div class="info_rightside flex_row">
+                        <div class="status online">
+                            <span class="icon-cheveron-down icon_status"></span>
+                            <div class="status_choise">
+                                <div class="choise"></div>
+                                <div class="choise"></div>
+                                <div class="choise"></div>
+                            </div>
+                        </div>
+                        <div class="users_online">
+                            <span class="icon-bubbles4 icon_online"></span>
+                            <p class="online_text">USER ONLINE</p>
+                            <span class="icon-cheveron-down icon_online_down"></span>
+                            <div class="show_users_online">
+                                <div class="users_online_item flex_row">
+                                    <img class="user_online_avatar" src="img/ava_user_online.png" alt="">
+                                    <p class="user_online_name">Marvin S.</p>
+                                </div>
+                                <div class="users_online_item flex_row">
+                                    <img class="user_online_avatar" src="img/ava_user_online.png" alt="">
+                                    <p class="user_online_name">Marvin S.</p>
+                                </div>
+                                <div class="users_online_item flex_row">
+                                    <img class="user_online_avatar" src="img/ava_user_online.png" alt="">
+                                    <p class="user_online_name">Marvin S.</p>
+                                </div>
+                                <div class="users_online_item flex_row">
+                                    <img class="user_online_avatar" src="img/ava_user_online.png" alt="">
+                                    <p class="user_online_name">Marvin S.</p>
+                                </div>
+                                <div class="users_online_item flex_row">
+                                    <img class="user_online_avatar" src="img/ava_user_online.png" alt="">
+                                    <p class="user_online_name">Marvin S.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_bar">
+                    <div class="menu_items flex_row">
+                        <div class="active_projects item_menu active_item_menu">
+                            <div class="inside_menu flex_row">
+                                <span class="icon-clock icon_inside_menu"></span>
+                                <p class="inside_menu_name">Active Projects</p>
+                                <span class="sticker sticker_menu">9</span>
+                            </div>
+                        </div>
+                        <div class="messager item_menu">
+                            <div class="inside_menu flex_row">
+                                <span class="icon-paperplane icon_inside_menu"></span>
+                                <p class="inside_menu_name">Messenger</p>
+                                <span class="sticker sticker_menu">2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_search">
+                        <!-- <input type="text"> -->
+                    </div>
+                </div>
+                <div class="content_menu_items ">
+                    <div class="content_item flex_row active_content ">
+                        <div class="projects_content">
+                            <div class="project_header flex_row">
+                                <div class="project_header_leftside">
+                                    <p class="project_header_text">Search a Project with Name, Task, User...</p>
+                                </div>
+                                <div class="project_header_rightside flex_row">
+                                    <div class="project_filter">
+                                        <p class="project_filter_text">New projects <span>(decscending)</span></p>
+                                        <span class="icon-cheveron-down project_filter_down"></span>
+                                    </div>
+                                    <div class="project_plus">
+                                        <span class="icon-plus project_plus_icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project_items">
+                                <div class="project_container flex_col_cent">
+                                        <div class="project flex_row">
+                                                <div class="project_leftside flex_row">
+                                                    <div class="project_percent">
+                                                        <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                                    </div>
+                                                    <p class="project_name">Create Contact Formular</p>
+                                                </div>
+                                                <div class="project_rightside flex_row">
+                                                    <p class="project_info">WORLDA</p>
+                                                    <div class="project_zoom">
+                                                        <span class="icon-search icon_project_zoom"></span>
+                                                    </div>
+                                                    <div class="project_more">
+                                                        <span class="icon-cheveron-down icon_project_more"></span>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">87</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Subpage PSD</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">PANORAMA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">83</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Lyout & implementation in HTML & CSS</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">EBAY RELAUNCH</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="inside_project">
+                                    <div class="inside_project_item project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent project_percent_info">
+                                                <span class="number_percent">66</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Creating the Context</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">TODAY, <span class="time">13:40</span> PM</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inside_project_item project flex_row">
+                                            <div class="project_leftside flex_row">
+                                                <div class="project_percent project_percent_info">
+                                                    <span class="number_percent word_percent">ready</span><span class="icon_pencent"></span>
+                                                </div>
+                                                <p class="project_name done_project">Implementation in the Layout</p>
+                                            </div>
+                                            <div class="project_rightside flex_row">
+                                                <p class="project_info">YESTERDAY, <span class="time">12:40</span> PM</p>
+                                                <div class="project_zoom">
+                                                    <span class="icon-search icon_project_zoom"></span>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Lorem ipsum dolor sit amet, elitr, sed diam nonumy eirmod tempor</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">PANORAMA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                                <div class="project_container flex_col_cent">
+                                <div class="project flex_row">
+                                        <div class="project_leftside flex_row">
+                                            <div class="project_percent">
+                                                <span class="number_percent">23</span><span class="icon_pencent"> %</span>
+                                            </div>
+                                            <p class="project_name">Create Contact Formular</p>
+                                        </div>
+                                        <div class="project_rightside flex_row">
+                                            <p class="project_info">WORLDA</p>
+                                            <div class="project_zoom">
+                                                <span class="icon-search icon_project_zoom"></span>
+                                            </div>
+                                            <div class="project_more">
+                                                <span class="icon-cheveron-down icon_project_more"></span>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="project_footer">
+                                <p class="project_footer_text">Project Archiv <span class="icon-cheveron-down project_footer_icon"></span></p>
+                            </div>
+                        </div>
+                        <div class="online_content">
+                            <div class="online_container">
+                                <div class="online_item">
+                                    <div class="user_online_avatar">
+                                        <img src="" alt="">
+                                        <div class="user_status"></div>
+                                    </div>
+                                    <div class="user_info">
+                                        <p class="user_name_status">Mark P. <span>add an Image into Worlda</span></p>
+                                        <p class="date_user">TODAY, <span>10:30</span> PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="online_footer">
+                                <p class="project_footer_text">Activity Archiv <span class="icon-cheveron-down project_footer_icon"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_item"></div>
+                </div>
+            </div>
+            <div class="content_items">
+                <h1>Projects</h1>
+            </div>
+            <div class="content_items">
+                <h1>Settings</h1>
+            </div>
+            <div class="content_items">
+                <h1>Upgrade</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

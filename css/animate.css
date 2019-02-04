@@ -1,0 +1,32 @@
+@-webkit-keyframes rotate360 {
+    0% {
+        visibility: visible;
+        -webkit-transform: rotate(1deg);
+    }
+    100% {
+        visibility: visible;
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate360 {
+    0% {
+        visibility: visible;
+        -moz-transform: rotate(1deg);
+    }
+    100% {
+        visibility: visible;
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate360 {
+    0% {
+        visibility: visible;
+        transform: rotate(1deg);
+    }
+    100% {
+        visibility: visible;
+        transform: rotate(360deg);
+    }
+}
